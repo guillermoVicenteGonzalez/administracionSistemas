@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <title>Pecera</title>
+</head>
+<style>
+
+</style>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="/cgi-bin/verificarLogin.cgi">Login</a>
+        <a class="active">Sign up</a>
+        <a href="/cgi-bin/monitor.cgi">Servicios</a>
+    </div>
+
+        <div class="cabecera">
+            <h1>cambiar Contraseña</h1>
+        </div>
+        <form class="pure-form" method="POST" action="/cgi-bin/cambiarContrasena.cgi">
+            <fieldset class="formulario">
+
+                <input  name="usuario" placeholder="login" />
+                <input type="password" name="password" placeholder="contraseña" />
+                <input type="password" name="n_password" placeholder="nueva contraseña" />
+                <input type="password" name="nc_password" placeholder="confirmar contraseña" />
+                <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+            </fieldset>
+        </form>
+        
+        <div class="errorMsg">
+            <p>Las contraseñas no coinciden</p>
+        </div>
+
+        <div class="footer">
+            <p>© PeceraDev - 2022 | Jorge Prieto y Guillermo Vicente</p>
+        </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+* {
+    margin: 0 !important;
+  }
+
+html{
+    /*
+    background: url(../fotos/pexels-markus-spiske-360591.jpg) no-repeat center center fixed; 
+    */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body{
+    letter-spacing: 3px !important;
+}
+.cabecera > h1{
+    padding-top: 100px;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fondo{
+    height: 50vh;
+    background-color: #9DF7E5;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.mainBody{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.seccion{
+    padding: 15%;
+    font-size: large;
+    text-align: center;
+}
+
+.seccion > h3{
+    color:#2d3e50;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+
+.seccion:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.autores{
+    height: 300px;
+    justify-content: center;
+    background-color:#2d3e50;
+    color: #fff;
+    text-align: center;
+    padding-top:30px !important;
+
+}
+
+.autores > h1{
+    padding-bottom:20px;
+}
+
+.autores > p{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    letter-spacing: 4px !important;
+    line-height: 25px;
+    padding-bottom: 30px !important;
+}
+
+
+.boton{
+    font-size: larger;
+    background-color: #DB6C79;
+    border-radius: 20px;
+    margin:20px !important;
+    text-align: center;
+    padding: 10px;
+    color: black !important;
+}
+
+.myButton{
+    background-color:#DB6C79;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .mainBody{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+

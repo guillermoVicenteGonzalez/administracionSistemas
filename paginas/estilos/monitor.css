@@ -1,0 +1,40 @@
+
+
+
+.errorMsg{
+    text-align: center;
+    color: red;
+}
+
+.servicio_activo{
+    background-color: #5cb85c;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.servicio_inactivo{
+    background-color: #c90000;
+    color:#fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cajas{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center !important;
+}
+
+.caja_activo{
+    border:1px solid;
+    border-radius: 15px;
+    border-color: #5cb85c;
+    margin:10px;
+}
+
+.caja_inactivo{
+    border:0px solid;
+    border-color:#DB6C79 ;
+    border-radius: 15px;
+    margin:10px;
+}

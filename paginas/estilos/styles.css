@@ -1,0 +1,137 @@
+
+
+body{
+    margin: 0;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+a:link{
+    color:rgb(133, 133, 133)
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    display: block !important;
+}
+
+form{
+    text-align: center !important;
+    display: inline-block !important;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    margin:0;
+    padding: 0;
+}
+
+.navbar a{
+    letter-spacing: 3px !important;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active{
+    background-color: #DB6C79;
+    color: white;
+}
+
+.cabecera{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.errorMsg{
+    text-align: center;
+    color: red;
+}
+
+.button {
+
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+/* Cosas de flexbox */
+.flex_container{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px, 16px;
+}
+
+.grid-container{
+
+ 
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    /*padding: 10px;*/
+}
+
+
+.tarjeta{
+
+    border: 2px solid #DB6C79;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 40px;
+    border-radius: 5px;
+    width: 100px;
+
+    height: 20px;
+    margin:30px
+}
+
+.tarjeta:hover{
+        width: 120px;
+        height: 40px;
+        background-color: #DB6C79;
+        color: white;
+        box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.footer{
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
